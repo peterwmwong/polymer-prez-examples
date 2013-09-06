@@ -1,48 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      .app header {
-        font-size: 36px;
-        font-weight: bold;
-        color: white;
-        background-color: gray;
-        padding: 10px;
-      }
-      .app section {
-        font-size: 18px;
-        padding: 20px;
-      }
-      .app footer {
-        font-size: 10px;
-        text-align: center;
-      }
-    </style>
-
-
-    <link rel="stylesheet" type="text/css" href="widget.css" />
-
+    <link rel="stylesheet" type="text/css" href="store.css" />
+    <link rel="stylesheet" type="text/css" href="sale-widget.css" />
   </head>
-  <body class="app container">
-    <header>Mega Store</header>
-    <section>
-      Deals everyday!
+  <body>
+    <div class="container">
+      <header>Mega Store</header>
+      <section>
+        Deals everyday!
 
-      <div id="child-widget">
-        <div class="container">
-          <header>ON SALE</header>
-          <section>
-            Gif Clocks!<br/>
-            <img width="60" src="http://upload.wikimedia.org/wikipedia/commons/3/37/Clock.gif"/>
-          </section>
-          <footer>
-            Times running out!
-          </footer>
+        <div id="child-widget">
+          <div class="container">
+            <header>ON SALE</header>
+            <section>
+              Gif Clocks!<br/>
+              <img width="60" src="http://upload.wikimedia.org/wikipedia/commons/3/37/Clock.gif"/>
+            </section>
+            <footer>
+              Time's running out!
+            </footer>
+          </div>
         </div>
-      </div>
-    </section>
-    <footer>
-      &copy; Copyright 2013 ACME corp. All rights reserved.
-    </footer>
+      </section>
+      <footer>
+        &copy; Copyright 2013 ACME corp. All rights reserved.
+      </footer>
+    </div>
   </body>
 </html>
