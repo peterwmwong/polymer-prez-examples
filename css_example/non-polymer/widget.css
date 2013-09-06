@@ -1,0 +1,21 @@
+.container {
+  width: 150px;
+  text-align: center;
+  border: 5px solid red;
+  padding: 10px;
+  background-color: #EEE;
+}
+
+header {
+  font-size: 24px;
+  color: #F00;
+}
+
+section {
+  font-size: 14px;
+}
+
+footer {
+  font-style: italic;
+  text-decoration: underline;
+}
